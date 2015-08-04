@@ -1,0 +1,26 @@
+{
+  "name": "gateblu-rebuilder",
+  "version": "1.0.0",
+  "description": "Rebuild gateblu",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bin": {
+    "gateblu-rebuilder": "./command.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/octoblu/gateblu-rebuilder"
+  },
+  "keywords": [
+    "gateblu"
+  ],
+  "author": "Octoblu <npm@octoblu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.0",
+    "lodash": "^3.10.1",
+    "meshblu": "^1.30.1"
+  }
+}
